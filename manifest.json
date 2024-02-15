@@ -1,0 +1,23 @@
+{
+    "name": "Linked In User and Company Profile Scraper",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Organize Your Business Network",
+     "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+    "action": {
+        "default_title": "Get pages source",
+        "default_popup": "refine.html"
+    },
+
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ]
+}
+
+

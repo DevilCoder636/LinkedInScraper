@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.pop-up-container{
+    width: 300px;
+    height: 400px;
+}
+.userInfocontainer {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h3, p {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#SaveInfo {
+    margin-bottom: 10px;
+}
+
+#PrintcontactInfo {
+    background-color: #3498db;
+    margin-top: 10px;
+}
+
+#PrintcontactInfo:hover {
+    background-color: #2980b9;
+}
+
+.UserContactInfoContainer {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.UserContactInfoContainer p {
+    margin: 10px 0;
+}
+
+.UserContactInfoContainer p:first-child {
+    margin-top: 0;
+}
+
+.UserContactInfoContainer p:last-child {
+    margin-bottom: 0;
+}
+
+/* Add more styles as needed */
